@@ -19,3 +19,9 @@ Once you have that installed on your machine, go ahead and open your `React` pro
 
 
 ![vscode_start_screen](./images/vscode_start_screen.png)
+
+Make sure that your npm installation is up to date (Node.js (^10.12.0, or >=12.0.0)). Also, make sure that you are at the root of your project. In the command line, type in the command:
+
+```javascript 
+npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+```
