@@ -16,12 +16,12 @@ Starting with Assignment 2, this will be made as a requirement for your React Pr
 For this tutorial, we will need [**VSCode**](https://code.visualstudio.com/)  editor. Make sure that you have this editor downloaded and installed on your local machine.
 
 Once you have that installed on your machine, go ahead and open your `React` project in the VSCode editor and open up a new integrated Terminal (From the menu bar, go to *Terminal* > *New Terimal*):
-
-
+<br/>
 ![vscode_start_screen](./images/vscode_start_screen.png)
-
+<br/>
 Make sure that your npm installation is up to date (Node.js (^10.12.0, or >=12.0.0)). Also, make sure that you are at the root of your project. In the command line, type in the command:
 
 ```javascript 
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 ```
+
