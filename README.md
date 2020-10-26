@@ -13,6 +13,6 @@ Starting with Assignment 2, this will be made as a requirement. We will be using
 
 ### Getting Started
 
-For this tutorial, we will need **VSCode**  editor. Make sure that you have this editor downloaded and installed on your local machine.
+For this tutorial, we will need [**VSCode**](https://code.visualstudio.com/)  editor. Make sure that you have this editor downloaded and installed on your local machine.
 
 Once you have that on your
