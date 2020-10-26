@@ -15,4 +15,4 @@ Starting with Assignment 2, this will be made as a requirement for your React Pr
 
 For this tutorial, we will need [**VSCode**](https://code.visualstudio.com/)  editor. Make sure that you have this editor downloaded and installed on your local machine.
 
-Once you have that installed on your machine, go ahead and open your `React` project in the VSCode editor:
+Once you have that installed on your machine, go ahead and open your `React` project in the VSCode editor and open up a new integrated Terminal (From the menu bar, go to *Terminal* > *New Terimal*):
