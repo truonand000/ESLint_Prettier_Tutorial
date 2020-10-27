@@ -23,7 +23,11 @@ You'll want to start by installing the **ESLint** and **Prettier** plugins to yo
 
 Click on the "Extensions" icon located on the left vertical icon menu. Search and install "ESLint" and "Prettier". Photos of these extensions are posted below:
 
+![extension_menu](./images/ExtensionsMenu.png)
 
+![ESLintVSCode](./images/ESLintVSCode.png)
+
+![PrettierVSCode](./images/PrettierVSCode.png)
 
 Next, you will want to install the **ESLint** and **Prettier** packages to your npm project:
 
