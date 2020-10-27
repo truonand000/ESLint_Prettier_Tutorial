@@ -105,13 +105,24 @@ We will next add the following text to the `.prettierrc`. Make sure to hit save 
 ```
 These configurations are unique to this class, and are subjected to change in the future as needed. I have listed the options that we have now here with a quick description for each of them. You can also search on [Prettier's Options List](https://prettier.io/docs/en/options.html) for more info:
 
- - "printWidth":80,
- - "tabWidth":4,
- - "useTabs":false,
- - "semi":true,
- - "singleQuote":true,
- - "trailingComma":"es5",
- - "bracketSpacing":true,
- - "jsxBracketSameLine":true,
+ - "printWidth":80
+    - The line length threshhold that the printer will wrap on.
+ - "tabWidth":4
+    - Number of spaces per indentation
+ - "useTabs":false
+    - We will have you use spaces instead of tab characters for indentation.
+ - "semi":true
+    - Every statement ends in a semicolon
+ - "singleQuote":true
+    - For strings, we will standardize single quotes.
+ - "trailingComma":"es5"
+    - Trailing comma rules will follow ES5 standards (search this up on google for more details).
+ - "bracketSpacing":true
+    - Prints spaces between brackets of object literals.
+ - "jsxBracketSameLine":true
+    - Put the `>` of a multi-line JSX element at the end of the last line instead of being alone on the next line (does not apply to self closing elements)
  - "arrowParens":"avoid"
+    - If there is only a single parameter in an arrow function, don't surround it with parantheses
+    
+In this repo, you will find the `.prettierrc` file that we are currently using. You are allowed to copy and use that if you wish.
 
