@@ -51,7 +51,7 @@ eslint --init
 
 ESLint init will take you through a set of questions. Select the following answers for each question:
 
-```javascript
+```
 How would you like to use ESLint?
 - To check syntax and find problems
 
