@@ -82,7 +82,7 @@ And that's it! We will come back to this file later once we configure Prettier.
 
 ### Prettier Configuration
 
-Prettier's configuration is quit straightforward. You will need to first create an `.prettierrc` configuration file in your project's root directory, which is the same place where your `.eslintrc.json` configuration file should be. You can just do this by using VSCode's GUI to add a new file or just run the following command:
+Prettier's configuration is quite straightforward. You will need to first create an `.prettierrc` configuration file in your project's root directory, which is the same place where your `.eslintrc.json` configuration file should be. You can just do this by using VSCode's GUI to add a new file or just run the following command:
 
 ```
 touch .prettierrc
@@ -126,3 +126,34 @@ These configurations are unique to this class, and are subjected to change in th
     
 In this repo, you will find the `.prettierrc` file that we are currently using. You are allowed to copy and use that if you wish.
 
+### Further Configuring ESLint to include Prettier and a few other rules:
+
+Once both your `.eslintrc.json` and `.prettierrc` configuration files have both been created, it's time to modify your `.eslintrc.json` file to add Prettier's functionality.
+
+Go ahead and open your `.eslintrc.json` file, it should look like this:
+
+```javascript
+module.exports = {
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+    }
+};
+```
