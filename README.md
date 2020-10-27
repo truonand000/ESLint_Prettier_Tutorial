@@ -43,6 +43,8 @@ Let these packages install. Once they are done, you will want run the following 
 sudo npm i -g eslint
 ```
 
+### ESLint Configuation
+
 Now that ESLint is installed globally, we can initialize a configuration file for eslint that will be named `.eslintrc.json`. ESLint has a that walks you through making initial configurations to your `.eslintrc.json`, which can be executed by entering in the following command into your command line (make sure that you are still at the root of your project directory):
 
 ```javascript
@@ -73,3 +75,9 @@ What format do you want your donfig file to be in?
 Would you like to install them now with npm?
 - Yes
 ```
+
+Once this is done, you should have an `.eslintrc.json` file located in your root directory. Make sure to check if it is there.
+
+### Prettier
+
+
