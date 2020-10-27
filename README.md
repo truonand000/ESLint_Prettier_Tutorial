@@ -19,11 +19,19 @@ Once you have that installed on your machine, go ahead and open your `React` pro
 
 ![vscode_start_screen](./images/vscode_start_screen.png)
 
-You want to start by installing the **ESLint** and **Prettier** packages:
+You'll want to start by installing the **ESLint** and **Prettier** plugins to your **VSCode** editor.
 
-Make sure that your npm installation is up to date (Node.js (^10.12.0, or >=12.0.0)). Also, make sure that you are at the root of your project. In the command line, type in the command:
+Click on the "Extensions" icon located on the left vertical icon menu. Search and install "ESLint" and "Prettier". Photos of these extensions are posted below:
+
+
+
+Next, you will want to install the **ESLint** and **Prettier** packages to your npm project:
+
+Make sure that your npm installation is up to date (Node.js (^10.12.0, or >=12.0.0)). Also, make sure that you are at the root of your project. In the command line at the root of your project directory, type in the command:
 
 ```javascript 
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 ```
+
+Let these packages install. Once they are done, you will want run the following command to install **ESLint** globally. You will only have to do this once:
 
