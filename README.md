@@ -42,3 +42,34 @@ Let these packages install. Once they are done, you will want run the following 
 ```javascript
 sudo npm i -g eslint
 ```
+
+Now that ESLint is installed globally, we can initialize a configuration file for eslint that will be named `.eslintrc.json`. ESLint has a that walks you through making initial configurations to your `.eslintrc.json`, which can be executed by entering in the following command into your command line (make sure that you are still at the root of your project directory):
+
+```javascript
+eslint --init
+```
+
+ESLint init will take you through a set of questions. Select the following answers for each question:
+
+```javascript
+How would you like to use ESLint?
+- To check syntax and find problems
+
+What type of modules does your project use?
+- JavaScript modules (import/export)
+
+Which framework does your project use?
+- React
+
+Does your project use TypeScript?
+- No
+
+Where does your code run?
+- Browser AND Node (select both by keypressing 'a', then hit enter)
+
+What format do you want your donfig file to be in?
+- JSON
+
+Would you like to install them now with npm?
+- Yes
+```
