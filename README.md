@@ -78,6 +78,28 @@ Would you like to install them now with npm?
 
 Once this is done, you should have an `.eslintrc.json` file located in your root directory. Make sure to check if it is there.
 
-### Prettier
+### Prettier Configuration
+
+Prettier's configuration is quit straightforward. You will need to first create an `.prettierrc` configuration file in your project's root directory, which is the same place where your `.eslintrc.json` configuration file should be. You can just do this by using VSCode's GUI to add a new file or just run the following command:
+
+```
+touch .prettierrc
+```
+
+We will next add the following text to the `.prettierrc`. Make sure to hit save once you make these changes:
+
+```javascript
+{
+    "printWidth":80,
+    "tabWidth":4,
+    "useTabs":false,
+    "semi":true,
+    "singleQuote":true,
+    "trailingComma":"es5",
+    "bracketSpacing":true,
+    "jsxBracketSameLine":true,
+    "arrowParens":"avoid"
+}
+```
 
 
