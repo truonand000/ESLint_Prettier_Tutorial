@@ -39,3 +39,6 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-pl
 
 Let these packages install. Once they are done, you will want run the following command to install **ESLint** globally. You will only have to do this once:
 
+```javascript
+sudo npm i -g eslint
+```
