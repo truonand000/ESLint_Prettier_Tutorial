@@ -3,12 +3,62 @@
 
 ## Quick References
 ### Table of Contents
-- [Introduction](Introduction)
+- [Introduction](#Introduction)
 - [Getting Started](#Getting-Started)
 - [ESLint Configuation](#ESLint-Configuation)
 - [Prettier Configuration](#Prettier-Configuration)
 - [Further Configuration](#Further-Configuring-ESLint-to-include-Prettier-and-a-few-other-rules)
 - [Final Notes](#Final-Notes)
+
+### .eslintrc.json (current config)
+```javascript
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "no-unused-vars":"warn"
+    }
+}
+
+```
+
+### .prettierrc (current config)
+```javascript
+{
+    "printWidth":80,
+    "tabWidth":4,
+    "useTabs":false,
+    "semi":true,
+    "singleQuote":true,
+    "trailingComma":"es5",
+    "bracketSpacing":true,
+    "jsxBracketSameLine":true,
+    "arrowParens":"avoid"
+}
+```
+
+### Exceptions to the rules
+- None currently
 
 ## Updates
 - 10/27/20
