@@ -136,7 +136,7 @@ Does your project use TypeScript?
 Where does your code run?
 - Browser AND Node (select both by keypressing 'a', then hit enter)
 
-What format do you want your donfig file to be in?
+What format do you want your config file to be in?
 - JSON
 
 Would you like to install them now with npm?
