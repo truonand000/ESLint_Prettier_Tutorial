@@ -221,3 +221,4 @@ Once everything above has been properly installed, you should start seeing "Prob
 
 It will look like this:
 
+![ESLint Errors](./images/ESLintErrors.png)
