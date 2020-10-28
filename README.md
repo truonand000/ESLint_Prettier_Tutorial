@@ -253,4 +253,6 @@ You can also view all of your problems in the "Problems" Tab of the Terminal pan
 ## Final Notes
 Please do note that we are trying this coding standard out for the first time for this class, so the configurations for the `.prettierrc` and `.eslintrc.json` files are subjected to change over time.
 
-This is why we will have the configurations for both files displayed at the top of this document under [Quick References](#Quick-References) section.
+This is why we will have the configurations for both files displayed at the top of this document under [Quick References](#Quick-References) section. Any updates will also be listed under the [Updates](#Updates) section, so keep an eye out for that.
+
+And as always, if you have any questions or problems, please don't be afraid to reach out and let us know through our [Canvas Discussion Board](https://northeastern.instructure.com/courses/22216/discussion_topics)!
