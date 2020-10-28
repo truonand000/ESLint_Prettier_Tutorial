@@ -223,4 +223,20 @@ It will look like this:
 
 ![ESLint Errors](./images/ESLintErrors.png)
 
-To inspect a problem and find a way to fix it hover over the underlined problem until a context window pops up. There will be a "Quick Fix" option within that context window. Click on that and it will give you options to help you fix your issue: 
+To inspect a problem and find a way to fix it **hover over the underlined problem** until a context window pops up. There will be a "Quick Fix" option within that context window. Click on that and it will give you options to help you fix your issue: 
+
+![ContextWindow](./image/ContextWindow.png)
+
+![ContextMenu](./image/ContextMenu.png)
+
+As you can see, there are several options to help you deal with any ERROR warnings. These are usually "Fix this <problem type> problem", "Disable <problem type> for this line/entire file" or "Show documentation for <problem type>". The beauty with **Prettier** is that if you click "Fix this...", then it will automatically reformat the problem code for you according to the prettier rules that we have set up for the project.
+
+"Show documentation" will open a webpage for you that shows the documentation for that particular problem.
+
+There is also the "Fix all auto-fixable problems", which will have **Prettier** reformat everything it can throughout the entire file, but we encourage you to work through each problem to practice our cleaner code practices.
+
+Below is an image of what this particular example looks like after I have gone through all the problems and reformatted the code to our Prettier standards:
+
+![Fixed](./images/Fixed.png)
+
+
