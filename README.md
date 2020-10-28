@@ -1,7 +1,7 @@
 # Adding ESLint and Prettier to your React/NPM Project
-## CS5610 Web Development
+### CS5610 Web Development
 
-### Introduction
+## Introduction
 
 **ESLint** is a popular NPM package that is used to check your Javascript code for possible syntax errors, and allows you to quickly reference rules through provided links that can help guide you to correct these errors. It also comes with a recommended extension for React code, which we will also make use of.
 
@@ -11,7 +11,7 @@ The goal of these two packages is to standardize the "Clean Code" portion of you
 
 Starting with Assignment 2, this will be made as a requirement for your React Projects. We will be using these packages to check your style, and will mark you down for any **ERRORS** (red-underlined indications) that appear in your code. **WARNINGs** (yellow-underlined indications) will not be counted against you, but it is **HIGHLY** recommended that you correct these warnings.
 
-### Getting Started
+## Getting Started
 
 For this tutorial, we will need [**VSCode**](https://code.visualstudio.com/)  editor. Make sure that you have this editor downloaded and installed on your local machine.
 
@@ -45,7 +45,7 @@ Let these packages install. Once they are done, you will want run the following 
 sudo npm i -g eslint
 ```
 
-### ESLint Configuation
+## ESLint Configuation
 
 Now that ESLint is installed globally, we can initialize a configuration file for eslint that will be named `.eslintrc.json`. ESLint has a that walks you through making initial configurations to your `.eslintrc.json`, which can be executed by entering in the following command into your command line (make sure that you are still at the root of your project directory):
 
@@ -82,7 +82,7 @@ Once this is done, you should have an `.eslintrc.json` file located in your root
 
 And that's it! We will come back to this file later once we configure Prettier.
 
-### Prettier Configuration
+## Prettier Configuration
 
 Prettier's configuration is quite straightforward. You will need to first create an `.prettierrc` configuration file in your project's root directory, which is the same place where your `.eslintrc.json` configuration file should be. You can just do this by using VSCode's GUI to add a new file or just run the following command:
 
@@ -128,7 +128,7 @@ These configurations are unique to this class, and are subjected to change in th
     
 In this repo, you will find the `.prettierrc` file that we are currently using. You are allowed to copy and use that if you wish.
 
-### Further Configuring ESLint to include Prettier and a few other rules:
+## Further Configuring ESLint to include Prettier and a few other rules:
 
 Once both your `.eslintrc.json` and `.prettierrc` configuration files have both been created, it's time to modify your `.eslintrc.json` file to add Prettier's functionality.
 
@@ -216,5 +216,5 @@ Your final `.eslintrc.json` configuration should look like this:
 }
 ```
 
-### How to use once installed
+## How to use once installed
 
