@@ -2,6 +2,13 @@
 ### CS5610 Web Development
 
 ## Quick References
+### Table of Contents
+- [Introduction](Introduction)
+- [Getting Started](#Getting-Started)
+- [ESLint Configuation](#ESLint-Configuation)
+- [Prettier Configuration](#Prettier-Configuration)
+- [Further Configuration](#Further-Configuring-ESLint-to-include-Prettier-and-a-few-other-rules)
+- [Final Notes](#Final-Notes)
 
 ## Updates
 - 10/27/20
