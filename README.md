@@ -189,7 +189,7 @@ These configurations are unique to this class, and are subjected to change in th
  - "arrowParens":"avoid"
     - If there is only a single parameter in an arrow function, don't surround it with parantheses
     
-In this repo, you will find the `.prettierrc` file that we are currently using. You are allowed to copy and use that if you wish.
+The most current configuration of our class's `.prettierrc` file can be found located under [Quick References](#Quick-References)
 
 ## Further Configuring ESLint to include Prettier and a few other rules:
 
