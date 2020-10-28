@@ -225,9 +225,9 @@ It will look like this:
 
 To inspect a problem and find a way to fix it **hover over the underlined problem** until a context window pops up. There will be a "Quick Fix" option within that context window. Click on that and it will give you options to help you fix your issue: 
 
-![ContextWindow](./image/ContextWindow.png)
+![ContextWindow](./images/ContextWindow.png)
 
-![ContextMenu](./image/ContextMenu.png)
+![ContextMenu](./images/ContextMenu.png)
 
 As you can see, there are several options to help you deal with any ERROR warnings. These are usually "Fix this <problem type> problem", "Disable <problem type> for this line/entire file" or "Show documentation for <problem type>". The beauty with **Prettier** is that if you click "Fix this...", then it will automatically reformat the problem code for you according to the prettier rules that we have set up for the project.
 
