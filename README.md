@@ -15,7 +15,7 @@ Starting with Assignment 2, this will be made as a requirement for your React Pr
 
 For this tutorial, we will need [**VSCode**](https://code.visualstudio.com/)  editor. Make sure that you have this editor downloaded and installed on your local machine.
 
-Once you have that installed on your machine, go ahead and open your `React` project in the VSCode editor and open up a new integrated Terminal (From the menu bar, go to *Terminal* > *New Terimal*):
+Once you have that installed on your machine, go ahead and open your `React` project in the VSCode editor:
 
 ![vscode_start_screen](./images/vscode_start_screen.png)
 
@@ -30,6 +30,8 @@ Click on the "Extensions" icon located on the left vertical icon menu. Search an
 ![PrettierVSCode](./images/PrettierVSCode.png)
 
 Next, you will want to install the **ESLint** and **Prettier** packages to your npm project:
+
+Open up a new integrated Terminal (From the menu bar, go to *Terminal* > *New Terimal*).
 
 Make sure that your npm installation is up to date (Node.js (^10.12.0, or >=12.0.0)). Also, make sure that you are at the root of your project. In the command line at the root of your project directory, type in the command:
 
@@ -133,7 +135,7 @@ Once both your `.eslintrc.json` and `.prettierrc` configuration files have both 
 Go ahead and open your `.eslintrc.json` file, it should look like this:
 
 ```javascript
-module.exports = {
+{
     "env": {
         "browser": true,
         "es2021": true,
@@ -155,5 +157,7 @@ module.exports = {
     ],
     "rules": {
     }
-};
+}
 ```
+
+We are going to make changes to the `"extends"`, `"plugins"`, and `"rules"` attributes.
