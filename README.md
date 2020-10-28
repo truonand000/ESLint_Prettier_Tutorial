@@ -74,7 +74,7 @@ The goal of these two packages is to standardize the "Clean Code" portion of you
 
 Starting with Assignment 2, this will be made as a requirement for your React Projects. We will be using these packages to check your style, and will mark you down for any **ERRORS** (red-underlined indications) that appear in your code. **WARNINGs** (yellow-underlined indications) will not be counted against you, but it is **HIGHLY** recommended that you correct these warnings.
 
-** DO NOT USE ANY OTHER CONFIGS ** unless it is stated in the [Updates](#Updates) section and reflected in the configuration examples listed under [Quick References](#Quick-References)
+** **DO NOT USE ANY OTHER CONFIGS** ** unless it is stated in the [Updates](#Updates) section and reflected in the configuration examples listed under [Quick References](#Quick-References). Remember, will be grading based on the current configurations, so any errors will be marked down based on those.
 
 ## Getting Started
 
