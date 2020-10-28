@@ -160,4 +160,58 @@ Go ahead and open your `.eslintrc.json` file, it should look like this:
 }
 ```
 
-We are going to make changes to the `"extends"`, `"plugins"`, and `"rules"` attributes.
+We are going to make changes to the `"extends"`, `"plugins"`, and `"rules"` attributes as follows:
+
+```javascript
+"extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "prettier"
+    ],
+```
+
+```javascript
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+```
+
+```javascript
+    "rules": {
+        "prettier/prettier": "error",
+        "no-unused-vars": "warning"     
+    }
+```
+
+Your final `.eslintrc.json` configuration should look like this:
+
+```javascript
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "no-unused-vars":"warn"
+    }
+}
+```
