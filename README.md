@@ -1,5 +1,5 @@
+# CS5610 Web Development
 # Adding ESLint and Prettier to your React/NPM Project
-### CS5610 Web Development
 
 ## Quick References
 ### Table of Contents
