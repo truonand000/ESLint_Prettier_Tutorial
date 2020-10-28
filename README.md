@@ -215,3 +215,6 @@ Your final `.eslintrc.json` configuration should look like this:
     }
 }
 ```
+
+### How to use once installed
+
