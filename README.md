@@ -74,6 +74,8 @@ The goal of these two packages is to standardize the "Clean Code" portion of you
 
 Starting with Assignment 2, this will be made as a requirement for your React Projects. We will be using these packages to check your style, and will mark you down for any **ERRORS** (red-underlined indications) that appear in your code. **WARNINGs** (yellow-underlined indications) will not be counted against you, but it is **HIGHLY** recommended that you correct these warnings.
 
+** DO NOT USE ANY OTHER CONFIGS ** unless it is stated in the [Updates](#Updates) section and reflected in the configuration examples listed under [Quick References](#Quick-References)
+
 ## Getting Started
 
 For this tutorial, we will need [**VSCode**](https://code.visualstudio.com/)  editor. Make sure that you have this editor downloaded and installed on your local machine.
@@ -313,5 +315,7 @@ You can also view all of your problems in the "Problems" Tab of the Terminal pan
 Please do note that we are trying this coding standard out for the first time for this class, so the configurations for the `.prettierrc` and `.eslintrc.json` files are subjected to change over time.
 
 This is why we will have the configurations for both files displayed at the top of this document under [Quick References](#Quick-References) section. Any updates will also be listed under the [Updates](#Updates) section, so keep an eye out for that.
+
+Any exceptions to the rules will also be listed under [Quick References](#Quick-References).
 
 And as always, if you have any questions or problems, please don't be afraid to reach out and let us know through our [Canvas Discussion Board](https://northeastern.instructure.com/courses/22216/discussion_topics)!
