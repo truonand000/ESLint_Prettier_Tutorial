@@ -72,7 +72,7 @@
 
 The goal of these two packages is to standardize the "Clean Code" portion of your assignment grades, help teach you to follow specific Javascript style guide lines, and help you practice writing clean code. Of course, the style rules that are provided are unique to this class. There are many other style guides (like google, airbnb, and mozilla) that are much more detailed, but we have decided to only provide very basic rules for the sake of simplicity. This is by no means perfect, but it is a nice and easy way to start to standardizing code style for this class.
 
-Starting with Assignment 2, this will be made as a requirement for your React Projects. We will be using these packages to check your style, and will mark you down for any **ERRORS** (red-underlined indications) that appear in your code. **WARNINGs** (yellow-underlined indications) will not be counted against you, but it is **HIGHLY** recommended that you correct these warnings.
+Starting with Assignment 2, this will be made as a requirement for your React Projects. We will be using these packages to check your style, and will mark you down for any **ERRORS** (red-underlined indications) that appear in your code. **WARNINGs** (yellow-underlined indications) we'll not be counted against you, but it is **HIGHLY** recommended that you correct these warnings.
 
 ** **DO NOT USE ANY OTHER CONFIGS** ** unless it is stated in the [Updates](#Updates) section and reflected in the configuration examples listed under [Quick References](#Quick-References). Remember, will be grading based on the current configurations, so any errors will be marked down based on those.
 
