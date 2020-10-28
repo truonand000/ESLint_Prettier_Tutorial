@@ -217,4 +217,7 @@ Your final `.eslintrc.json` configuration should look like this:
 ```
 
 ## How to use once installed
+Once everything above has been properly installed, you should start seeing "Problems" pop up as you click through your files. Sometimes, problems don't start popping up until you inspect a file, so be sure to click through each of your `.js` files so that the problems pop up if you have any.
+
+It will look like this:
 
