@@ -4,6 +4,8 @@
 ## Quick References
 
 ## Updates
+- 10/27/20
+    - Tutorial created
 
 ## Introduction
 
