@@ -1,6 +1,10 @@
 # Adding ESLint and Prettier to your React/NPM Project
 ### CS5610 Web Development
 
+## Quick References
+
+## Updates
+
 ## Introduction
 
 **ESLint** is a popular NPM package that is used to check your Javascript code for possible syntax errors, and allows you to quickly reference rules through provided links that can help guide you to correct these errors. It also comes with a recommended extension for React code, which we will also make use of.
@@ -241,4 +245,10 @@ Below is an image of what this particular example looks like after I have gone t
 
 You can also view all of your problems in the "Problems" Tab of the Terminal pane:
 
-![Problems](./images/Problems.png)
+![Problems](./images/ProblemsTab.png)
+
+
+## Final Notes
+Please do note that we are trying this coding standard out for the first time for this class, so the configurations for the `.prettierrc` and `.eslintrc.json` files are subjected to change over time.
+
+This is why we will have the configurations for both files displayed at the top of this document under [Quick References](##Quick-References) section.
