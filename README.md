@@ -189,7 +189,7 @@ These configurations are unique to this class, and are subjected to change in th
  - "arrowParens":"avoid"
     - If there is only a single parameter in an arrow function, don't surround it with parantheses
     
-The most current configuration of our class's `.prettierrc` file can be found located under [Quick References](#Quick-References)
+The most current configuration of our class's `.prettierrc` file can be found located under [Quick References](#Quick-References).
 
 ## Further Configuring ESLint to include Prettier and a few other rules:
 
@@ -278,6 +278,8 @@ Your final `.eslintrc.json` configuration should look like this:
     }
 }
 ```
+
+The most current configuration of our class's `.eslintrc.json` file can be found located under [Quick References](#Quick-References).
 
 ## How to use once installed
 Once everything above has been properly installed, you should start seeing ESLint "Problems" pop up as you click through your files. Sometimes, problems don't start popping up until you inspect a file, so be sure to click through each of your `.js` files so that the problems pop up if you have any.
