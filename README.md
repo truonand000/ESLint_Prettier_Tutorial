@@ -96,7 +96,7 @@ Next, you will want to install the **ESLint** and **Prettier** packages to your 
 
 Open up a new integrated Terminal (From the menu bar, go to *Terminal* > *New Terimal*).
 
-Make sure that your npm installation is up to date (Node.js (^10.12.0, or >=12.0.0)). Also, make sure that you are at the root of your project. In the command line at the root of your project directory, type in the command:
+Make sure that your npm installation is up to date (Node.js (^10.12.0, or >=12.0.0)). Also, make sure that you are at the root of your project. In the command line at your project's root directory, type in the command:
 
 ```javascript 
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
