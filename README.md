@@ -164,24 +164,24 @@ We are going to make changes to the `"extends"`, `"plugins"`, and `"rules"` attr
 
 ```javascript
 "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "prettier"
-    ],
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier"
+],
 ```
 
 ```javascript
-    "plugins": [
-        "react",
-        "prettier"
-    ],
+"plugins": [
+    "react",
+    "prettier"
+],
 ```
 
 ```javascript
-    "rules": {
-        "prettier/prettier": "error",
-        "no-unused-vars": "warning"     
-    }
+"rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warning"     
+}
 ```
 
 Your final `.eslintrc.json` configuration should look like this:
