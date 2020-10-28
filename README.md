@@ -235,8 +235,10 @@ As you can see, there are several options to help you deal with any ERROR warnin
 
 There is also the "Fix all auto-fixable problems", which will have **Prettier** reformat everything it can throughout the entire file, but we encourage you to work through each problem to practice our cleaner code practices.
 
-Below is an image of what this particular example looks like after I have gone through all the problems and reformatted the code to our Prettier standards:
+Below is an image of what this particular example looks like after I have gone through all the problems and reformatted the code to our **Prettier** + **ESLint** standards:
 
 ![Fixed](./images/Fixed.png)
 
+You can also view all of your problems in the "Problems" Tab of the Terminal pane:
 
+![Problems](./images/Problems.png)
