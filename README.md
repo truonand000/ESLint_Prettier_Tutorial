@@ -107,7 +107,11 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-pl
 Let these packages install. Once they are done, you will want run the following command to install **ESLint** globally. You will only have to do this once:
 
 ```javascript
+// For Mac/Linux
 sudo npm i -g eslint
+
+// For Windows
+npm i -g eslint
 ```
 
 ## ESLint Configuation
@@ -245,7 +249,7 @@ We are going to make changes to the `"extends"`, `"plugins"`, and `"rules"` attr
 ```javascript
 "rules": {
     "prettier/prettier": "error",
-    "no-unused-vars": "warning"     
+    "no-unused-vars": "warn"     
 }
 ```
 
