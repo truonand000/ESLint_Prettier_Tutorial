@@ -293,7 +293,6 @@ Your final `.eslintrc.json` configuration should look like this:
         "no-unused-vars":"warn"
     }
 }
-}
 ```
 
 The most current configuration of our class's `.eslintrc.json` file can be found under [Quick References](#Quick-References).
