@@ -23,6 +23,7 @@
         "plugin:react/recommended",
         "prettier"
     ],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -61,6 +62,8 @@
 - None currently
 
 ## Updates
+- 11/10/20
+    - Added `"parser": "babel-eslint"` to `.eslintrc.json` to fix parsing error for arrow functions.
 - 10/27/20
     - Tutorial created
 
@@ -253,6 +256,12 @@ We are going to make changes to the `"extends"`, `"plugins"`, and `"rules"` attr
 }
 ```
 
+Also add `"parser": "babel-eslint"` to correct a parsing error that shows when using arrow functions:
+
+```json
+"parser": "babel-eslint",
+```
+
 Your final `.eslintrc.json` configuration should look like this:
 
 ```javascript
@@ -267,6 +276,7 @@ Your final `.eslintrc.json` configuration should look like this:
         "plugin:react/recommended",
         "prettier"
     ],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -282,6 +292,7 @@ Your final `.eslintrc.json` configuration should look like this:
         "prettier/prettier": "error",
         "no-unused-vars":"warn"
     }
+}
 }
 ```
 
