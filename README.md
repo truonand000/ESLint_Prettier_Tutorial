@@ -8,6 +8,7 @@
 - [ESLint Configuation](#ESLint-Configuation)
 - [Prettier Configuration](#Prettier-Configuration)
 - [Further Configuration](#Further-Configuring-ESLint-to-include-Prettier-and-a-few-other-rules)
+- [Delete Config Files](#Delete-Config-Files-Before-Assignment-Submission)
 - [Final Notes](#Final-Notes)
 
 ### .eslintrc.json (current config)
