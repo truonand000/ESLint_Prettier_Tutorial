@@ -63,7 +63,7 @@
 
 ## Updates
 - 11/11/20
-    - Added new instruction section [Delete Config Files](#Delete-Config-Files-Before-Assignment-Submission). Summary: Delete `.eslintrc.json` and `.prettierrc` when done with using ESLint to lint your files. There are known issues with Heroku deployment that results from not deleting these files.
+    - Added new instruction section [Delete Config Files](#Delete-Config-Files-Before-Assignment-Submission). Summary: Delete `.eslintrc.json` and `.prettierrc` once you are done with using ESLint to lint your files. There are known issues with Heroku deployment that results from not deleting these files.
 - 11/10/20
     - Added `"parser": "babel-eslint"` to `.eslintrc.json` to fix parsing error for arrow functions.
 - 10/27/20
