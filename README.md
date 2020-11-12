@@ -329,7 +329,7 @@ You can also view all of your problems in the "Problems" Tab of the Terminal pan
 ## Delete Config Files Before Assignment Submission
 There have been known issues reported by students when deploying assignments to Heroku when `.eslintrc.json` and `.prettierrc` are left in the repo from which the assignment is deployed from.
 
-To fix this problem, simply delete both the `.eslintrc.json` and `.prettierrc` before uploading them up to Github/Heroku for deployment.
+To fix this problem, simply delete both the `.eslintrc.json` and `.prettierrc` config files before uploading them up to Github/Heroku for deployment.
 
 ## Final Notes
 Please do note that we are trying this coding standard out for the first time for this class, so the configurations for the `.prettierrc` and `.eslintrc.json` files are subjected to change over time.
